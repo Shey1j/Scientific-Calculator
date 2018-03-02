@@ -1,0 +1,80 @@
+.layer{
+    background-color: rgba(24, 1, 1, 0.541);
+    box-shadow: 5px 10px 10px 3px rgba(0, 0, 0, 0.44);
+    background-size: 60%;
+    height: 550px;
+    width: 600px;
+    position: relative;
+    border-radius: 8px;
+    left: 40%;
+    top: 100px;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.44);
+    border-top: 4px rgba(0, 0, 0, 0.44);
+    border-right: 4px solid rgba(0, 0, 0, 0.44);
+}
+ 
+.board{
+    padding-left: 50px;
+    padding-top: 10px;
+    height: 100px;
+    width: 450px;
+    position: relative;
+}
+
+button{
+    color: black;
+    text-decoration-color: aliceblue;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-bottom: -10px;
+    width: 96px;
+    height: 40px;
+    position: relative;
+    border-radius: 6px;
+    left: 50px;
+    top:20px;
+    margin-top: 0%;
+    cursor: pointer;
+}
+
+.board input{
+    position: relative;
+    left: 2px;
+    top: 3px;
+    height: 56px;
+    width: 266px;
+    color: black;
+    font-size: 25px;
+    text-align: right;
+    background-color: rgb(204, 186, 163);
+}
+
+p{
+    line-height: 20px;
+}
+.Integers{
+    color: antiquewhite;
+    background-color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.44);
+    border-top: 1px rgba(0, 0, 0, 0.44);
+}
+
+.Signs{
+    color: aliceblue;
+    background-color: blue;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.44);
+    border-top: 2px rgba(0, 0, 0, 0.44);
+}
+.Edit{
+    color: aliceblue;
+    background-color: rebeccapurple;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.44);
+    border-top: 2px rgba(0, 0, 0, 0.44);
+}
+.btns{
+    color: black;
+    background-color: silver;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.44);
+    border-top: 2px rgba(0, 0, 0, 0.44);
+}

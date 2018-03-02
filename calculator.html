@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>My Scientific Calculator</title>
+    <link rel="stylesheet" href="calculate.css">
+    <script src="index.js"></script>
+</head>
+
+<body style ="width: 780px;">
+    <div class="layer">
+        <div class="board">
+            <input type="text" style="height: 100px; width: 493px;" id="brd" readonly>
+        </div>
+        <div class="buttons">
+            <p>
+                <button class="btns" id="btnx2">x
+                    <sup>2</sup>
+                </button>
+                <button class="btns" id="btnxy">x
+                    <sup>y</sup>
+                </button>
+                <button class="btns" id="btnsin" onclick="Press('sin(')">sin</button>
+                <button class="btns" id="btncos" onclick="Press('cos(')">cos</button>
+                <button class="btns" id="btntan" onclick="Press('tan(')">tan</button>
+            </p>
+            <p>
+                <button class="btns" id="btnSqr" onclick="Press('√')">&#x0221A;</button>
+                <button class="btns" id="btnten">10
+                    <sup>x</sup>
+                </button>
+                <button class="btns" id="btnlog" onclick="Press('log(')">log</button>
+                <button class="btns" id="btnExp">Exp</button>
+                <button class="btns" id="btnMod">Mod</button>
+            </p>
+            <p>
+                    <button class="btns" id="btnE">e
+                            <sup>x</sup>
+                        </button>
+                        <button class="btns" id="btnIn">In</button>
+                        <button class="btns" id="btnAsin">sin
+                                <sup>-1</sup>
+                            </button>
+                            <button class="btns" id="btnAcos">cos
+                                <sup>-1</sup>
+                            </button>
+                            <button class="btns" id="btnAtan">tan
+                                <sup>-1</sup>
+                            </button>
+            </p>
+            <p>
+                <button class="btns" id="btnY">
+                    <sup>y</sup>&#x0221A;</button>
+                <button class="btns" id="btnDEn">1/x</button>
+                <button class="Edit" id="btnCLR" onclick='ClearFunction()'>CLR</button>
+                <button class="Edit" id="btnC" onclick='BackSp()'>C</button>
+                <button class="Signs" id="btnDiv" onclick="Press('÷')"><b>&#247;</b></button>
+            </p>
+            <p>
+                <button class="btns" id="btnPi">&#960;</button>
+                <button class="Integers" id="btn7" onclick="calculator.display.value += '7'">7</button>
+                <button class="Integers" id="btn8" onclick="Press(8)">8</button>
+                <button class="Integers" id="btn9" onclick="Press(9)">9</button>
+                <button class="Signs" id="btnMult" onclick="Press('x')"><b>&#215;</b></button>
+            </p>
+            <p>
+                <button class="btns" id="btnFac">n!</button>
+                <button class="Integers" id="btn4" onclick="Press(4)">4</button>
+                <button class="Integers" id="btn5" onclick="Press(5)">5</button>
+                <button class="Integers" id="btn6" onclick="Press(6)">6</button>
+                <button class="Signs" id="btnSub" onclick="Press('-')">&#8722;</button>
+            </p>
+            <p>
+                <button class="btns" id="btnNP">&#177;</button>
+                <button class="Integers" id="btn1" onclick="Press(1)">1</button>
+                <button class="Integers" id="btn2" onclick="Press(2)">2</button>
+                <button class="Integers" id="btn3" onclick="Press(3)">3</button>
+                <button class="Signs" id="btnAdd" onclick="Press('+')">&#43;</button>
+            </p>
+
+            <p>
+                <button class="btns" id="btnFbr" onclick = "Press('(')">(</button>
+                <button class="btns" id="btnIbr" onclick = "Press(')')">)</button>
+                <button class="Integers" id="btn0" onclick="Press(0)">0</button>
+                <button class="Integers" id="btnDec" onclick="Press('.')">
+                        <b>.</b>
+                    </button>
+                <button class="Signs" id="btnEqu">=</button>
+            </p>
+        </div>
+    </div>
+
+<!-- <script>document.getElementById("brd").value="3+a"+'\u00F7'</script> -->
+</body>
+
+</html>
